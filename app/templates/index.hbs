@@ -1,15 +1,11 @@
-<h1> Welcome to AlBnB </h1>
+<h4>Today's announcement: {{model.announcement.sales}}</h4><br>
 
 <p>We hope you find exactly what you're looking for in a place to stay.</p>
 
 <ul>
-  {{#each model as |rental|}}
+  {{#each model.rentals as |rental|}}
     {{rental-tile rental=rental}}
   {{/each}}
 </ul>
 
 {{new-rental save2="save3"}}
-
-{{#link-to 'about'}}About{{/link-to}}<br><br>
-{{#link-to 'contact'}}Click here to contact us.{{/link-to}}<br><br>
-{{#link-to 'announcement'}}Click here for announcements.{{/link-to}}
