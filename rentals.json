@@ -1,0 +1,37 @@
+{ "rentals": [{
+    "owner": "Alvin Ng",
+    "city": "San Francisco",
+    "type": "Estate",
+    "bedrooms": 15,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+  }, {
+    "owner": "Noah Ramey",
+    "city": "Seattle",
+    "type": "Condo",
+    "bedrooms": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
+  }, {
+    "owner": "Violet Beauregarde",
+    "city": "Portland",
+    "type": "Apartment",
+    "bedrooms": 3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+  }],
+
+"announcements": [{
+  "sales": "70% off tiny homes",
+  "weather": "No weather warnings to report.",
+  "news": "No news to report.",
+  "date": "Monday"
+}, {
+  "sales": "No sales today.",
+  "weather": "Tornado warning in Nebraska.",
+  "news": "5 AlBnB properties reportedly in tornado path.",
+  "date": "Tuesday"
+}, {
+  "sales": "90% off Nebraska Properties",
+  "weather": "No weather warnings to report.",
+  "news": "5 properties in Nebraska nearly destroyed in tornado path as of yesterday.",
+  "date": "Wednesday"
+  }]
+}
