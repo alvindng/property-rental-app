@@ -1,0 +1,17 @@
+{ "announcements": [{
+  "sales": "70% off tiny homes",
+  "weather": "No weather warnings to report.",
+  "news": "No news to report.",
+  "date": "Monday"
+}, {
+  "sales": "No sales today.",
+  "weather": "Tornado warning in Nebraska.",
+  "news": "5 AlBnB properties reportedly in tornado path.",
+  "date": "Tuesday"
+}, {
+  "sales": "90% off Nebraska Properties",
+  "weather": "No weather warnings to report.",
+  "news": "5 properties in Nebraska nearly destroyed in tornado path as of yesterday.",
+  "date": "Wednesday"
+  }]
+}

@@ -1,0 +1,12 @@
+<div class="container">
+  <header class="jumbotron">
+    {{#link-to 'index'}}<h1>ALBnB</h1>{{/link-to}}
+  </header>
+  {{outlet}}
+  <hr>
+  <footer>
+    {{#link-to 'about'}}About ALBnB{{/link-to}}<br><br>
+    {{#link-to 'contact'}}Click here to contact us.{{/link-to}}<br><br>
+    {{#link-to 'announcement'}}Click here for announcements.{{/link-to}}
+  </footer>
+</div>
