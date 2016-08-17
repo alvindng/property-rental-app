@@ -33,6 +33,7 @@
   "weather": "No weather warnings to report.",
   "news": "5 properties in Nebraska nearly destroyed in tornado path as of yesterday.",
   "date": "Wednesday"
+<<<<<<< HEAD
   }],
   "cities": [{
     "name": "Portland",
@@ -40,5 +41,7 @@
   }, {
     "name": "Seattle",
     "country": "USA"
+=======
+>>>>>>> d61f774a3f502595c54a8fcebeaeefd3d774840c
   }]
 }
