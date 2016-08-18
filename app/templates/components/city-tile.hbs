@@ -1,0 +1,6 @@
+{{#each city.rentals as |rental|}}
+  <p>
+    {{#link-to 'rental' rental.id}}{{rental.owner}}'s {{rental.type}}{{/link-to}}
+  </p>
+{{/each}}
+<button {{action 'destroyCity' city}}>Destroy City</button>

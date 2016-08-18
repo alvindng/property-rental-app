@@ -1,0 +1,10 @@
+<h1>Welcome to {{model.name}}</h1>
+
+<p>  {{model.name}}'s Details</p>
+<p>  Country: {{model.country}}</p>
+
+<p>  Available properties:</p>
+
+{{city-tile city=model destroyCity="destroyCity"}}
+
+{{new-rental save2="save3" city=model}}
